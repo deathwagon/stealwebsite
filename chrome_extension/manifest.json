@@ -1,0 +1,20 @@
+{
+  "name": "My Site Inspiration (by GoDaddy)",
+  "description": "This extension adds an button to the toolbar which allows you to copy the page to your hosting provider.",
+  "version": "0.0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": { "128": "GoDaddy_Head.png" },
+  "options_page": "options.html",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+    "default_title": "Steal This Page",
+    "default_icon": "GoDaddy_Head.png"
+  },
+
+  "manifest_version": 2
+}
