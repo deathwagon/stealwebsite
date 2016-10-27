@@ -1,2 +1,2 @@
 # stealwebsite
-hackathon oct 2016
+original idea for hackathon oct 2016
